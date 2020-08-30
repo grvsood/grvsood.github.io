@@ -1,27 +1,56 @@
-# Site settings
-title: Gaurav Sood
-email: gauravsood1410@gmail.com
-url: https://grvsood.github.io
-description: "Computer Programmer<br> Wipro Limited (Jun- Jul 2019) (Intern) <br> Indian Institue of Remote Sensing - ISRO Dehradun (Dec 2018 - Jan 2019) (Intern)"
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+enableTags: true
+tagarray: []
 
-# Footer settings
-footer: Gaurav Sood
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
-    url: https://github.com/grvsood
-  - title: linkedin
-    url: https://www.linkedin.com/in/gauravsood1410/
-  - title: twitter
-    url: https://twitter.com/gauravsood_
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
 
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
 
-# Build settings
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://agusmakmun.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
-permalink: pretty
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
