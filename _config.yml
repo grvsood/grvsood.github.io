@@ -1,8 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+title: Posts
+description: My weekly programming insights
+author: Gaurav Sood
+github: https://github.com/grvsood
+about: Software Developer Engineer at Amazon.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -15,30 +15,30 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  # - icon: fa-facebook
+  #   link: "#"
+  - icon: fa-twitter
+    link: "https://twitter.com/gauravsood_"
+  # - icon: fa-linkedin
+  #   link: "#"
+  # - icon: fa-stack-exchange
+  #   link: "#"
+  - icon: fa-github
+    link: "https://github.com/grvsood"
 
 share:
-  twitter_username: github.io
+  twitter_username: gauravsood_
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://grvsood.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -53,6 +53,6 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ['development']
+    envs: ["development"]
 
 theme: jekyll-theme-slate
