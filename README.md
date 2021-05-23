@@ -1,80 +1,46 @@
-## My Stack Problems
+# Getting Started with Create React App
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+## Available Scripts
 
-#### Features
+In the project directory, you can run:
 
-* Sitemap and XML Feed
-* Pagination in homepage
-* Posts under category
-* Realtime Search Posts _(title & description)_ by query.
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
-* Projects page & Detail Project page
-* Share on social media
-* Google analytics
-* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
+### `npm start`
 
-#### Screenshot
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Install & Configuration
+### `npm test`
 
-1. Fork this repository
-2. Edit site settings inside file of `_config.yml`
-3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
-4. Edit about yourself inside file of `about.md`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### How to Use?
+### `npm run build`
 
-**a. Add new Category**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-All categories saved inside path of `category/`, you can see the existed categories.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**b. Add new Posts**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
-* This files can found at the path of `_posts/`.
-* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
+### `npm run eject`
 
-```
-2013-09-23-welcome-to-jekyll.md
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-# or
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2013-09-23-welcome-to-jekyll.markdown
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Inside the file of it,
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```
----
-layout: post                          # (require) default post layout
-title: "Your Title"                   # (require) a string title
-date: 2016-04-20 19:51:02 +0700       # (require) a post date
-categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
-tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
-image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
----
+## Learn More
 
-# your content post with markdown syntax goes here...
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-
-#### Installing in your local
-
-```
-bundle install
-jekyll serve
-```
-
-### Contributing
-
-Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+To learn React, check out the [React documentation](https://reactjs.org/).
