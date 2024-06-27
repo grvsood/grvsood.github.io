@@ -1,0 +1,16 @@
+.intro {
+    color: #001c42;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introText {
+    font-size: -webkit-xxx-large;
+    line-height: 1.5em;
+    text-align: center;
+    white-space: pre-wrap;
+}
+

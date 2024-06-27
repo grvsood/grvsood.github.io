@@ -1,0 +1,30 @@
+.header {
+    background-color: #001c42;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.headerlogo {
+    padding: 20px;
+
+    .firstName {
+        font-size: 2.6rem;
+        letter-spacing: 0.1em;
+    }
+    .lastName {
+        line-height: 23px;
+        font-size: 4rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+
+  

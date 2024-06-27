@@ -1,0 +1,22 @@
+.experienece {
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.experience-text {
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.experience-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-images img {
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+}

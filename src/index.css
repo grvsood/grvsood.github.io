@@ -1,4 +1,23 @@
-:root {
+*,*::after,*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  pointer-events: none;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-size: 16px; */
+  background-color: #fff;
+  /* color: #000; */
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +84,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

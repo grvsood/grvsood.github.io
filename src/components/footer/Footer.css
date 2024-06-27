@@ -1,0 +1,17 @@
+.footer {
+    background-color: #001c42;
+}
+
+.footer-content {
+    padding: 30px 0 30px 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+.social-media-img {
+    width: 2vw;
+}
