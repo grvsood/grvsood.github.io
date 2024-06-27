@@ -1,5 +1,8 @@
 import moment from 'moment';
 import "./ExperienceSection.css"
+import isro from "../../assets/isro.png";
+import amazon from "../../assets/amazon.png";
+import wipro from "../../assets/wipro.png";
 
 
 export default function ExperienceSection() {
@@ -20,9 +23,9 @@ export default function ExperienceSection() {
                 </p>
             </div>
             <div className='experience-images'>
-                <img src='src/assets/isro.png' />
-                <img src='src/assets/amazon.png' />
-                <img src='src/assets/wipro.png' />
+                <img src={isro} />
+                <img src={amazon} />
+                <img src={wipro} />
             </div>
         </div>
     )
